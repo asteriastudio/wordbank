@@ -2,18 +2,33 @@ const GENERATED_NAME_SELECTOR = '#generated-name';
 
 const PREFIXES = [
   'Emerald',
-  'Autumn',
-  'Velvet',
+  'Rust',
   'Topaz',
+  'Haus',
+  'Halcyon',
+  'Velvet',
+  'Stories',
+  'October',
+  'Autumn',
+  'Harvest',
+  'Mosiac',
   'Amber',
+  'Moss',
+  'Mustard',
+  'Decadent',
+  'Nostalgia',
+  'Gold',
 ];
 
 const SUFFIXES = [
   'House',
+  'Haus',
+  'Maison',
+  'Palace',
   'Place',
-  'Atelier',
-  'Stories',
+  'Chateau',
   'Home',
+  'Atelier',
 ];
 
 function onGenerateClick(event) {
