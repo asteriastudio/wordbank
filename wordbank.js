@@ -36,11 +36,13 @@ function onGenerateClick(event) {
 
   const prefix = selectWord(PREFIXES);
   const suffix = selectWord(SUFFIXES);
+  const phrase = `${prefix} ${suffix}`
 
-  const value = document.createElement('h1')
-  value.innerHTML = `${prefix} ${suffix}`;
+  const value = document.createElement('div')
+  value.innerHTML = phrase;
 
   document.querySelector(GENERATED_NAME_SELECTOR).replaceChildren(value);
+  navigator.clipboard.writeText(phrase)
 }
 
 function selectWord(list) {
@@ -58,4 +60,3 @@ function init() {
 }
 
 main();
-
