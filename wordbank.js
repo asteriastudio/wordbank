@@ -19,9 +19,6 @@ const SUFFIXES = [
 function onGenerateClick(event) {
   event.preventDefault();
 
-  const prefixIndex = Math.random(PREFIXES.length - 1)
-  const suffixIndex = Math.random(SUFFIXES.length - 1)
-
   const prefix = selectWord(PREFIXES);
   const suffix = selectWord(SUFFIXES);
 
