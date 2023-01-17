@@ -4,7 +4,6 @@ const PREFIXES = [
   'Emerald',
   'Rust',
   'Topaz',
-  'Haus',
   'Halcyon',
   'Velvet',
   'Stories',
@@ -15,7 +14,6 @@ const PREFIXES = [
   'Amber',
   'Moss',
   'Mustard',
-  'Decadent',
   'Nostalgia',
   'Gold',
 ];
@@ -29,6 +27,10 @@ const SUFFIXES = [
   'Chateau',
   'Home',
   'Atelier',
+  'Paper',
+  'Co',
+  'Paperie',
+  'Studio',
 ];
 
 function onGenerateClick(event) {
