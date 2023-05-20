@@ -10,7 +10,6 @@ const PREFIXES = [
   'October',
   'Autumn',
   'Harvest',
-  'Mosiac',
   'Amber',
   'Moss',
   'Mustard',
@@ -22,15 +21,13 @@ const SUFFIXES = [
   'House',
   'Haus',
   'Maison',
-  'Palace',
   'Place',
   'Chateau',
   'Home',
   'Atelier',
-  'Paper',
   'Co',
-  'Paperie',
   'Studio',
+  'Salon',
 ];
 
 function onGenerateClick(event) {
